@@ -4,7 +4,7 @@ import { ListItemAvatar, Avatar } from '@mui/material'
 const EmpleadoAvatar = (props) => {
   return (
     <ListItemAvatar>
-          <Avatar alt={props.fullName} src={props.pic} />
+          <Avatar alt={props.alt} src={props.src} />
     </ListItemAvatar>
   )
 }
